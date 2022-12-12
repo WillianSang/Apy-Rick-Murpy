@@ -40,7 +40,7 @@ function App() {
     return (
         <div className="app">
             <div className="container__img">
-              <img className="imagen" src="../public/morpy.jpg" alt="fondo_R&M" />
+              <img className="imagen" src="./assets/morpu.jpg" alt="banner morpy" />
             </div>
             <h1 className="container__title"> Rick and Morty </h1>
             <form className="container__form" onSubmit={handleSubmit}>
